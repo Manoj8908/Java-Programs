@@ -1,4 +1,4 @@
-package java_basic;
+package JAVA_Strings;
 
 import java.util.Scanner;
 
@@ -10,12 +10,10 @@ public class CountOfString {
 		Scanner sc = new Scanner(System.in);
 		String str = sc.nextLine();
 		Count(str);
+		}
+	public static void Count(String str) {
 		
-	}
-	
-	static void Count(String str) {
-		
-		// Create an char array of given String 
+	// Create an char array of given String 
         char[] ch = str.toCharArray(); 
         for (int i = 0; i < ch.length; i++) {
         	
